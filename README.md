@@ -18,6 +18,7 @@ neural-network primitives and tuning infrastructure.
 | 3 | [Deep Q-Learning (DQN)](03_dqn_deep_q_learning.ipynb) | Q-networks, experience replay, target networks, Atari preprocessing, overestimation, Optuna tuning | CartPole, Atari Breakout |
 | 4 | [Tuning DQN with Ray Tune](04_dqn_ray_tune.ipynb) | parallel tuning, ASHA, Optuna inside Ray, Population Based Training, validation on unseen seeds | CartPole |
 | 5 | [Policy Gradients: REINFORCE to A2C](policy_gradients.ipynb) | policy gradient theorem, REINFORCE, baselines and advantages, entropy bonus, A2C, GAE, on-policy vs off-policy | CartPole, LunarLander (optional) |
+| 6 | [PPO, Curiosity (RND) and RLlib](ppo_curiosity_rllib.ipynb) | PPO from scratch, clipped surrogate, PPO diagnostics, RND curiosity, sparse rewards, Ray RLlib (new API stack), RLlib + Tune | CartPole, MountainCar, MiniGrid DoorKey, LunarLander (optional) |
 <!-- | 5 | [Next notebook](05_....ipynb) | ... | ... | -->
 
 
