@@ -17,6 +17,7 @@ neural-network primitives and tuning infrastructure.
 | 2 | [Q-Learning with Gymnasium](02_q_learning_gymnasium.ipynb) | control, Q-learning vs SARSA, on-policy vs off-policy, ε-greedy, `terminated` vs `truncated` | CliffWalking, FrozenLake |
 | 3 | [Deep Q-Learning (DQN)](03_dqn_deep_q_learning.ipynb) | Q-networks, experience replay, target networks, Atari preprocessing, overestimation, Optuna tuning | CartPole, Atari Breakout |
 | 4 | [Tuning DQN with Ray Tune](04_dqn_ray_tune.ipynb) | parallel tuning, ASHA, Optuna inside Ray, Population Based Training, validation on unseen seeds | CartPole |
+| 5 | [Policy Gradients: REINFORCE to A2C](policy_gradients.ipynb) | policy gradient theorem, REINFORCE, baselines and advantages, entropy bonus, A2C, GAE, on-policy vs off-policy | CartPole, LunarLander (optional) |
 <!-- | 5 | [Next notebook](05_....ipynb) | ... | ... | -->
 
 ### The learning path
